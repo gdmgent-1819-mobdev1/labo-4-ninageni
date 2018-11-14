@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    width: 400px;
+    margin: 0 auto;
+    border: 3px solid #f50625;
+ 
+}
+.Profile {
+    height: 450px;
+    overflow-y:auto;
+    margin-left: 20px;
+}
+.Title {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 28pt;
+    color: #f50625;
+
+}
+.Info_Persone_Picture {
+    width: 170px;
+    height: 170px;
+  
+}
+.Info_Persone_Picture img {
+    width: 100%;
+    height: 100%;
+}
+.map {
+    width: 170px;
+    height: 170px;
+    margin-left: 20px;
+}
+.Map_Picture{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+}
+.Info_Persone{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.Name_Age {
+    display: flex;
+    align-items: baseline;
+}
+.Info_Persone_Age {
+    margin-left: 20px;
+}
+.Info_Persone_Location{
+    margin-top: -20px;
+}
+.HotOrCold {
+    display: flex;
+    align-items: baseline;
+    margin-top: 40px;
+}
+.Hot{
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+    color: #f99d1f;
+    font-size: 70px;
+    border: none;
+    background-color: #ffffff;
+    border: 3px solid #f99d1f;
+    border-radius: 100%;
+}
+.Cold {
+    width: 100px;
+    height: 100px;
+    margin-left: 80px;
+    color: #8ddff5;
+    font-size: 70px;
+    border: none;
+    background-color: #ffffff;
+    border: 3px solid #8ddff5;
+    border-radius: 100%;
+}
+
+.Menu {
+    width: 100%;
+    display: flex;
+    font-size: 0;
+    margin-bottom: -20px;
+
+}
+.Profiles{
+    color: #f50625;
+    width: 50%;
+    border: none;
+    border-top: 3px solid #f50625;
+    background: none;
+    font-size: 25px;
+    padding: 20px 0px;
+
+}
+.HotOrNot {
+    color: #f50625;
+    width: 50%;
+    border:none;
+    border: 3px solid #f50625;
+    margin-left:  -4px;
+    border-bottom: 0px;
+    border-right: 0px;
+    background: none;
+    font-size: 25px;
+    padding: 20px 0px;
+}
+
+.active {
+    border-top: none;
+    padding-top: 23px;
+}
+
+.lijst {
+    width:100%;
+    
+}
+
+.Lijst ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: -50px;
+}
+
+.Lijst ul .name {
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.Lijst ul .cold {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.Lijst ul .hot {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.Lijst ul .cold .Cold_List {
+    width: 50px;
+    height: 50px;
+    margin-left: 80px;
+    color: #8ddff5;
+    font-size: 20px;
+    border: none;
+    background-color: #ffffff;
+    border: 3px solid #8ddff5;
+    border-radius: 100%;
+}
+
+.Lijst ul .hot .Hot_List{
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+    color: #f99d1f;
+    font-size: 20px;
+    border: none;
+    background-color: #ffffff;
+    border: 3px solid #f99d1f;
+    border-radius: 100%;
+}
+
